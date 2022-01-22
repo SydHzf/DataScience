@@ -1,0 +1,39 @@
+
+* Cal average of user_rating col
+* Cal average of user_rating_ver col 
+* Cal average of user_rating col where price is 0
+* Cal average of user_rating col where price is 0 and prime_genre is Games
+
+# Class Task
+* Cal average of user_rating col where price is 0 and prime_genre is Games or Music
+
+
+* Add a Col "price_labelling" in AppleStore dataset and add a price label in all application row by given condition below:
+    * free == 0
+    * cheap > 0.0 , <= 20.0
+    * affordabale > 20 , <= 50.0
+    * expensive > 50.0
+
+# Class Task
+* Add a Col "User_Rating_labelling" in AppleStore dataset
+* Add a Rating label in all application row by given condition below:
+    * poor == 0
+    * average > 0.0 , <= 2
+    * Good > 2 , <= 4
+    * Awesome > 4
+
+* Genrate a frequency table of prime genre
+
+* Genrate a frequency table of prime genre for free Apps
+
+# Class Task
+* Genrate a frequency table of prime genre for paid Apps where user rating is greater than 4
+
+* Create a function for frequency table
+    1. first parameter = dataset
+    2. second parameter = col index number
+
+# Class Task
+* Create a function for frequency table
+    1. first parameter = dataset
+    2. second parameter = col name
